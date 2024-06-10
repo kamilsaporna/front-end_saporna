@@ -23,13 +23,13 @@ export const Header = () => {
       <Container maxWidth="lg">
         <div className={styles.inner}>
           <Link className={styles.logo} to="/">
-            <div>MISTAL BLOGSITE</div>
+            <div>SAPORNA'S LIFESTYLE</div>
           </Link>
           <div className={styles.buttons}>
             {isAuth ? (
               <>
                 <Link to="/add-post">
-                  <Button variant="contained">Write a BLOG</Button>
+                  <Button variant="contained">Write an update</Button>
                 </Link>
                 <Button
                   onClick={onClickLogout}
